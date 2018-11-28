@@ -24,13 +24,29 @@
  */
 return array(
     'name' => 'taoExample',
+<<<<<<< HEAD
     'label' => 'Extension sample',
     'description' => '',
+=======
+    'label' => 'Item Summary',
+    'description' => 'Summary of all Questions from bank',
+>>>>>>> 8b89b996a024128671a02289736b64c21c854b07
     'license' => 'GPL-2.0',
     'version' => '1.0.0',
     'author' => 'Open Assessment Technologies SA',
     'requires' => array(
+<<<<<<< HEAD
         'tao' => '>=2.23.5'
+=======
+        'generis' => '>=2.16.2',
+        'tao' => '>=2.23.5',
+        'taoItems' => '>=2.13.2',
+        'taoQtiItem' => '>=2.21.2',
+        'taoQtiTest' => '>=2.24.2',
+        'qtiItemPci' => '>=0.1.4',
+        'funcAcl' => '>=2.7.2',
+        'taoDevTools' => '>=2.21.0'
+>>>>>>> 8b89b996a024128671a02289736b64c21c854b07
     ),
     'managementRole' => 'http://www.tao.lu/Ontologies/generis.rdf#taoExampleManager',
     'acl' => array(
